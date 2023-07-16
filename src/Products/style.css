@@ -1,0 +1,30 @@
+.product{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.key{
+    margin: 10px;
+  padding: 10px;
+  border: 1px solid #d2945e;
+  border-radius: 5px;
+  text-align: center;
+}
+.image{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.price{
+    font-weight: bold;
+    color: #d2945e;
+}
+.cart{
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+.category,.stock,.rate{
+  font-weight: 500;
+}
